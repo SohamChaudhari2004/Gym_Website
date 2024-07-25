@@ -1,0 +1,90 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: url('images/bg.jpg');
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+
+}
+
+.left img {
+    width: 135px;
+    filter: invert();
+}
+
+.left div {
+    margin-left: 14px;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 60px;
+    display: inline-block;
+}
+
+.center {
+    display: block;
+    width: 36%;
+    margin: 50px auto;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 25px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: aqua;
+}
+
+.btn {
+    margin: 9px 9px;
+    padding: 4px 12px;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(52, 40, 40);
+}
+
+.container {
+    text-align: center;
+   
+    margin: 100px 40px;
+    padding: 30px 38px
+}
+.container div{
+    margin: 23px;
+    
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding:6px;
+    margin:auto;
+}
